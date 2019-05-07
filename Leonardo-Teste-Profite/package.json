@@ -1,0 +1,30 @@
+{
+  "name": "site-volanty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/gulp",
+    "dist": "./node_modules/.bin/gulp --series clean build "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "4.3.1",
+    "browser-sync": "2.26.5",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "0.2.0",
+    "gulp-imagemin": "5.0.3",
+    "gulp-sass": "4.0.2",
+    "gulp-terser": "1.1.7",
+    "gulp-uglify": "3.0.2",
+    "jquery": "3.4.0",
+    "jquery-bar-rating": "1.2.2",
+    "popper.js": "1.15.0"
+  },
+  "dependencies": {
+    "http-server": "0.11.1"
+  }
+}
